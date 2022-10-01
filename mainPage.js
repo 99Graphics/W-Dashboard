@@ -12,7 +12,7 @@ if (localStorage.getItem("signIn") === null) {
 
 function signInFalse() {
     if (localStorage.getItem("signIn") === "false") {
-        window.location.replace("https://walletdemo.wallio.io/redirect")
+        window.location.replace("https://99w-dashboard.webflow.io/redirect")
     } else {
         console.log("Sign In True")
     }
